@@ -1,16 +1,7 @@
-# flutter_project1
+# Weather App
 
-A new Flutter project.
+A flutter project which display the weather for a large numbe rof cities worldwide.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project uses OpenWeather Api and fetches the weather information from the api source. Use Hive database for cacheing future weather info. Uses flutter bloc for reactive state management.
